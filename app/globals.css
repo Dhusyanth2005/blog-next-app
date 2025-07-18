@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Added for consistent sizing */
+}
+
+body {
+  background: #cbcaca; /* Light gray background for "grayesh" effect */
+  color: #333333; /* Dark gray text for readability */
+}

@@ -1,0 +1,70 @@
+.reg-container {
+  width: 350px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff; /* White background */
+  border-radius: 0.25rem;
+  border: 1px solid #e0e0e0; /* Light gray border */
+}
+
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000; /* Black for readability */
+}
+
+input {
+  height: 2rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 0 0.5rem;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  font-size: 0.875rem;
+  background: #f9f9f9; /* Off-white input background */
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #4caf50; /* Green for focus, matching other components */
+}
+
+.reg-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background: #4caf50; /* Green, matching submit/login/update buttons */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.reg-btn:hover {
+  background: #388e3c; /* Darker green on hover */
+}
+
+.login-link {
+  text-decoration: underline;
+  color: #1e88e5; /* Blue, matching register link/admin button */
+  cursor: pointer;
+}
